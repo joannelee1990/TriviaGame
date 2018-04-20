@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/tree.jpg");
+    width: 820px;
+    margin: auto;
+    background-size: cover;                    
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1750px;
+}
+
+container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../images/unsplash.jpg");
+}
+
+.jumbotron {
+    padding: 10px;
+    background-image: url("../images/unsplash.jpg");
+}
+
+#remaining {
+    font-size: 25px;
+    border: 3px solid darkgray;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+label {
+    font-size: 13px;
+}
+
+hr {
+    border: 1px solid black;
+}

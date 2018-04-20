@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Art Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Amatic+SC|Julius+Sans+One|Pompiere|Saira+Condensed" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+<container>
+
+
+<header>
+    <div class="jumbotron">
+        <h1>Art Trivia</h1> 
+        <br>
+        <button id= "startButton">Start</button>
+            <div class="correctAnswers"></div>
+            <div class="wrongAnswers"></div>
+            <div class="unansweredAnswers"></div>
+    <br><br>
+    </div>  
+</header>   
+
+<section> 
+    <div id= "remaining">
+        <h2>Seconds Remaining:</h2> 
+    </div>    
+    <br>
+    <div class="question1">Name the three primary colours.
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer1" value= "true">Red, yellow, blue</label>
+        <label class="radio-inline"><input type="radio" name="answer1" value= "false">Lavendar, topaz, black</label>
+        <label class="radio-inline"><input type="radio" name="answer1" value= "false">Slate Gray, navy, red</label>
+        <label class="radio-inline"><input type="radio" name="answer1" value= "false">Tan, citrus, scarlet</label>        
+    <hr>
+    </div>
+    <div class="question2">In needlework, what does UFO refer to?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer2" value= "false">Until Further Orders</label>
+        <label class="radio-inline"><input type="radio" name="answer2" value= "false">Unbelievably Fun Object</label>
+        <label class="radio-inline"><input type="radio" name="answer2" value= "false">Unidentified Flying Object</label>
+        <label class="radio-inline"><input type="radio" name="answer2" value= "true">Unfinished object</label>
+    <hr>
+    </div>
+    <div class="question3">Name the famous ballet Russian dancer who changed the face of modern ballet. 
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer3" value= "true">Rudolf Nureyev</label>
+        <label class="radio-inline"><input type="radio" name="answer3" value= "false">Joanne Lee</label>
+        <label class="radio-inline"><input type="radio" name="answer3" value= "false">Santa Claus</label>
+        <label class="radio-inline"><input type="radio" name="answer3" value= "false">Frasier Crane</label>
+    <hr>    
+    </div>
+    <div class="question4">What is the painting 'La Gioconda' more usually known as?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer4" value= "false">The Thinking Man</label>
+        <label class="radio-inline"><input type="radio" name="answer4" value= "true">The Mona Lisa-</label>
+        <label class="radio-inline"><input type="radio" name="answer4" value= "false">The Flatterers</label>
+        <label class="radio-inline"><input type="radio" name="answer4" value= "false">The Painting</label>
+    <hr>
+    </div>
+    <div class="question5">What does the term 'piano' mean?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer5" value= "false">Tinkling noises</label>
+        <label class="radio-inline"><input type="radio" name="answer5" value= "false">Angel's humming</label>
+        <label class="radio-inline"><input type="radio" name="answer5" value= "false">Mozart's toy</label>
+        <label class="radio-inline"><input type="radio" name="answer5" value= "true">To be played softly</label>
+    <hr>
+    </div>
+    <div class="question6">Name the Spanish artist, sculptor and draughtsman famous for co-founding the Cubist movement.
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer6" value= "false">Antonio Banderas</label>
+        <label class="radio-inline"><input type="radio" name="answer6" value= "false">Gustav Klimt</label>
+        <label class="radio-inline"><input type="radio" name="answer6" value= "false">Enrique Iglesias</label>
+        <label class="radio-inline"><input type="radio" name="answer6" value= "true">Pablo Picasso</label>
+    <hr>
+    </div>
+    <div class="question7">How many valves does a trumpet have?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer7" value= "false">Five hundred</label>
+        <label class="radio-inline"><input type="radio" name="answer7" value= "true">Three</label>
+        <label class="radio-inline"><input type="radio" name="answer7" value= "false">A million</label>
+        <label class="radio-inline"><input type="radio" name="answer7" value= "false">Six</label>
+    <hr>
+    </div>
+    <div class="question8">Who painted How Sir Galahad, Sir Bors, and Sir Percival were Fed with the Sanc Grael; But Sir Percival's Sister Died by the Way?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer8" value= "true">Dante Gabriel Rossetti</label>
+        <label class="radio-inline"><input type="radio" name="answer8" value= "false">King Louis</label>
+        <label class="radio-inline"><input type="radio" name="answer8" value= "false">Marie Antoinette</label>
+        <label class="radio-inline"><input type="radio" name="answer8" value= "false">Pablo Picasso</label>
+    <hr>
+    </div>
+    <div class="question9">If you were painting with tempera, what would you be using to bind together colour pigments?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer9" value= "true">Egg yolk</label>
+        <label class="radio-inline"><input type="radio" name="answer9" value= "false">Butter</label>
+        <label class="radio-inline"><input type="radio" name="answer9" value= "false">Ice cream</label>
+        <label class="radio-inline"><input type="radio" name="answer9" value= "false">Lemons</label>
+    <hr>
+    </div>
+    <div class="question10">What is John Leach famous for making?
+        <br><br>
+        <label class="radio-inline"><input type="radio" name="answer10" value= "false">Chocolate chip cookies</label>
+        <label class="radio-inline"><input type="radio" name="answer10" value= "false">Mickey Mouse</label>
+        <label class="radio-inline"><input type="radio" name="answer10" value= "false">Strawberry milkshakes</label>
+        <label class="radio-inline"><input type="radio" name="answer10" value= "true">Pottery</label>
+    <hr>
+    </div> 
+
+    <footer>
+        <button id="doneButton">Done</button>
+    </footer>
+
+</section>
+
+</container>
+
+</body>
+</html>
